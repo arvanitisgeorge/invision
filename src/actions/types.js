@@ -5,3 +5,4 @@ export const _HAS_ERROR = "_HAS_ERROR"
 // Users
 export const GET_USERS = "GET_USERS"
 export const UPDATE_USER = "UPDATE_USER"
+export const UPDATE_USER_IN_LIST = "UPDATE_USER_IN_LIST"

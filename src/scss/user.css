@@ -1,0 +1,35 @@
+.rectangle {
+    box-sizing: border-box;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #39628D;
+    background-color: #39628D;
+}
+
+.user-info {
+    height: 18px;
+    width: 117px;
+    color: #39628D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.table-row:hover{
+    background-color: rgb(238 241 245);
+    cursor: pointer;
+}
+
+input:checked~.custom-control-label::before {
+    background-color: rgb(153 217 217)!important;
+    border-color: rgba(82, 87, 238, 0.385)!important;
+}
+
+.custom-control-label:hover{
+    cursor: pointer;
+}
+
+.user-checkbox:hover{
+    cursor: pointer;
+}
